@@ -32,11 +32,9 @@ class CommandHandler {
                     console.log(chalk.blue.bold("[TridentCommands] " + chalk.cyan(`Found Command: ${file}`) + chalk.red(`${chalk.bold(' [Error]')} No index.js found`)));
                 }
             });
-            console.log(this.commandsAliases);
         });
         this.commands = tempCommands;
         this.commandsAliases = tempCommandsAliases;
-        console.log(tempCommandsAliases);
     }
 
     checkCommand(msg) {
