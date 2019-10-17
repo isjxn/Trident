@@ -1,0 +1,25 @@
+{
+  "name": "trident",
+  "version": "1.0.0",
+  "description": "trident is a framework to make it easier to develop discordbots",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Discord",
+    "Discordbot",
+    "Js",
+    "NodeJS",
+    "Framework"
+  ],
+  "author": "Jan (NanoLogic)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.2.4"
+  }
+}
